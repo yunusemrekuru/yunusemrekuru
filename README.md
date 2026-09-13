@@ -88,53 +88,9 @@
   <p><i>Mobil geliştirme, modern web ekosistemleri, yapay zeka & veri bilimi araçları</i></p>
 </div>
 
-<br/>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📱 Mobile & Cross-Platform</h3>
-      <div align="center">
-        <img src="https://skillicons.dev/icons?i=flutter,dart&theme=dark" alt="Flutter, Dart" />
-        <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/android.svg" width="48" height="48" alt="Android" />
-        <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/apple.svg" width="48" height="48" alt="Apple iOS" />
-      </div>
-      <p align="center"><i>Flutter & Dart ile akıcı, yerel performanslı iOS & Android uygulamaları</i></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🌐 Frontend & Web</h3>
-      <div align="center">
-        <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML5, CSS3, JS" />
-      </div>
-      <p align="center"><i>HTML5, CSS3 ve JavaScript ile modern ve duyarlı web arayüzleri</i></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">⚙️ Backend & Languages</h3>
-      <div align="center">
-        <img src="https://skillicons.dev/icons?i=python,php,cs,dotnet&theme=dark" alt="Python, PHP, C#, .NET" />
-      </div>
-      <p align="center"><i>Python, PHP ve C# (.NET) ile ölçeklenebilir arka uç servisleri</i></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🗄️ Cloud, BaaS & Databases</h3>
-      <div align="center">
-        <img src="https://skillicons.dev/icons?i=supabase,firebase,mysql,postgres&theme=dark" alt="Supabase, Firebase, MySQL, PostgreSQL" />
-      </div>
-      <p align="center"><i>Supabase, Firebase, MySQL ve PostgreSQL ile gerçek zamanlı veri altyapısı</i></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
-      <h3 align="center">🧠 AI, Computer Vision & Development Tools</h3>
-      <div align="center">
-        <img src="https://skillicons.dev/icons?i=opencv,git,github,vscode&theme=dark" alt="OpenCV, Git, GitHub, VS Code" />
-      </div>
-      <p align="center"><i>OpenCV ile bilgisayarlı görü laboratuvarı, Git versiyon kontrolü ve modern geliştirici araçları</i></p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/tech_arsenal.svg" alt="Tech Arsenal — Flutter, Dart, Android, iOS, HTML, CSS, JS, Python, PHP, C#, Supabase, Firebase, PostgreSQL, MySQL, OpenCV, .NET, Git, GitHub, VS Code" width="100%" />
+</div>
 
 <br/>
 
