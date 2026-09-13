@@ -101,30 +101,32 @@ const developer: DeveloperProfile = {
     <td width="50%" valign="top">
       <h3 align="center">📱 Mobile & Cross-Platform</h3>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=flutter,dart,android,apple&perline=4&theme=dark" alt="Mobile Skills" />
+        <img src="https://skillicons.dev/icons?i=flutter,dart&theme=dark" alt="Flutter, Dart" />
+        <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/android.svg" width="48" height="48" alt="Android" />
+        <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/apple.svg" width="48" height="48" alt="Apple iOS" />
       </div>
       <p align="center"><i>Flutter & Dart ile akıcı, yerel performanslı iOS & Android uygulamaları</i></p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🌐 Frontend & Web</h3>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap&perline=4&theme=dark" alt="Frontend Skills" />
+        <img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML5, CSS3, JS" />
       </div>
-      <p align="center"><i>Modern, responsive ve yüksek estetik standartlı kullanıcı arayüzleri</i></p>
+      <p align="center"><i>HTML5, CSS3 ve JavaScript ile modern ve duyarlı web arayüzleri</i></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">⚙️ Backend & Languages</h3>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=python,php,nodejs,cs,dotnet,flask,fastapi&perline=4&theme=dark" alt="Backend Skills" />
+        <img src="https://skillicons.dev/icons?i=python,php,cs,dotnet&theme=dark" alt="Python, PHP, C#, .NET" />
       </div>
-      <p align="center"><i>Python, PHP, Node.js ve C# ile ölçeklenebilir arka uç servisleri</i></p>
+      <p align="center"><i>Python, PHP ve C# (.NET) ile ölçeklenebilir arka uç servisleri</i></p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🗄️ Cloud, BaaS & Databases</h3>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=supabase,firebase,mysql,postgres,sqlite,mongodb&perline=4&theme=dark" alt="Cloud & Database Skills" />
+        <img src="https://skillicons.dev/icons?i=supabase,firebase,mysql,postgres&theme=dark" alt="Supabase, Firebase, MySQL, PostgreSQL" />
       </div>
       <p align="center"><i>Supabase, Firebase, MySQL ve PostgreSQL ile gerçek zamanlı veri altyapısı</i></p>
     </td>
@@ -133,9 +135,9 @@ const developer: DeveloperProfile = {
     <td colspan="2" align="center" valign="top">
       <h3 align="center">🧠 AI, Computer Vision & Development Tools</h3>
       <div align="center">
-        <img src="https://skillicons.dev/icons?i=opencv,pytorch,git,github,vscode,figma,postman,linux&perline=8&theme=dark" alt="AI & Tools" />
+        <img src="https://skillicons.dev/icons?i=opencv,git,github,vscode&theme=dark" alt="OpenCV, Git, GitHub, VS Code" />
       </div>
-      <p align="center"><i>OpenCV ile bilgisayarlı görü modelleri, Git versiyon kontrolü ve modern iş akışları</i></p>
+      <p align="center"><i>OpenCV ile bilgisayarlı görü laboratuvarı, Git versiyon kontrolü ve modern geliştirici araçları</i></p>
     </td>
   </tr>
 </table>
@@ -236,25 +238,6 @@ const developer: DeveloperProfile = {
     </td>
   </tr>
 </table>
-
-<br/>
-
-<!-- ================================================================= -->
-<!-- 🐍 GITHUB SNAKE CONTRIBUTION GRAPH                               -->
-<!-- ================================================================= -->
-
-<div align="center">
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="30" />&nbsp; CONTRIBUTION ACTIVITY // SNAKE RUN</h2>
-  <p><i>GitHub katkı grafiğimin karanlık turkuaz tema ile interaktif yılan animasyonu</i></p>
-  
-  <br/>
-  
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
-</div>
 
 <br/><br/>
 
