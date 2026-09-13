@@ -6,7 +6,9 @@
 <div align="center">
 
   <!-- HERO BANNER -->
-  <img src="./assets/cyber_banner.svg" alt="Yunus Emre Kuru Cyber Banner" width="100%" />
+  <a href="https://github.com/yunusemrekuru">
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/cyber_banner.svg" alt="Yunus Emre Kuru Cyber Banner" width="100%" />
+  </a>
 
   <br/><br/>
 
