@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 68" width="244" height="68">
+  <defs>
+    <linearGradient id="social_githubt" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#475569"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="social_githubb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#94a3b8" stop-opacity="0.7"/><stop offset="0.6" stop-color="#94a3b8" stop-opacity="0.08"/><stop offset="1" stop-color="#94a3b8" stop-opacity="0.3"/></linearGradient>
+    <linearGradient id="social_githubbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1122"/><stop offset="1" stop-color="#050810"/></linearGradient>
+    <radialGradient id="social_githubg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#94a3b8" stop-opacity="0.3"/><stop offset="1" stop-color="#94a3b8" stop-opacity="0"/></radialGradient>
+    <clipPath id="social_githubc"><rect x="1" y="1" width="242" height="66" rx="18"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="242" height="66" rx="18" fill="url(#social_githubbg)"/>
+  <g clip-path="url(#social_githubc)"><circle cx="36" cy="34" r="90" fill="url(#social_githubg)"/></g>
+  <rect x="1" y="1" width="242" height="66" rx="18" fill="none" stroke="url(#social_githubb)" stroke-width="1.2"/>
+
+  <rect x="12" y="12" width="44" height="44" rx="13" fill="url(#social_githubt)"/>
+  <rect x="12.5" y="12.5" width="43" height="43" rx="12.5" fill="none" stroke="#fff" stroke-opacity="0.22"/>
+  <g transform="translate(23,23) scale(1.1)"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" fill="#fff"/></g>
+
+  <text x="70" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">GitHub</text>
+  <text x="70" y="50" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" fill="#7d8ba3">Explore code</text>
+
+  <circle cx="214" cy="34" r="14" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+  <path d="M210 38 L218 30 M212 30 H218 V36" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

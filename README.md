@@ -12,54 +12,23 @@
 
   <br/><br/>
 
-  <!-- DYNAMIC CYBER TYPING HUD -->
-  <a href="https://github.com/yunusemrekuru">
-    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/typing_hud.svg" alt="Yunus Emre Kuru Terminal HUD" width="100%" />
+  <!-- ROLLING "I BUILD" TICKER -->
+  <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hero_ticker.svg" alt="I build Flutter apps, real-time Supabase backends, AI-powered mobile products and pixel-perfect web experiences" width="100%" />
+
+  <br/><br/>
+
+  <!-- META STRIP -->
+  <a href="https://github.com/yunusemrekuru?tab=repositories">
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/meta_strip.svg" alt="Open to collaborate · 23+ builds · @kurudevworks · Mobile, Cloud, AI" width="100%" />
   </a>
 
   <br/><br/>
 
-  <!-- QUICK HUD TELEMETRY CHIPS -->
-  <p align="center">
-    <a href="mailto:yunusemrekuru35@gmail.com">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_status.svg" alt="Status" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/yunusemrekuru?tab=repositories">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_repos.svg" alt="Portfolio" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/yunusemrekuru">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_views.svg" alt="Telemetry" />
-    </a>
-    &nbsp;
-    <a href="https://www.instagram.com/kurudevworks" target="_blank">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_studio.svg" alt="Studio" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/yunusemrekuru">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_sports.svg" alt="Passion" />
-    </a>
-  </p>
-
-  <!-- SOCIAL CONNECT DOCK -->
-  <p align="center">
-    <a href="https://www.linkedin.com/in/yunus-emre-kuru-436b52237/" target="_blank">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_linkedin.svg" alt="LinkedIn" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://www.instagram.com/kurudevworks" target="_blank">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_instagram.svg" alt="Instagram" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="mailto:yunusemrekuru35@gmail.com">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_email.svg" alt="Email" />
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/yunusemrekuru">
-      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_github.svg" alt="GitHub" />
-    </a>
-  </p>
+  <!-- SOCIAL DOCK -->
+  <a href="https://www.linkedin.com/in/yunus-emre-kuru-436b52237/"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/social_linkedin.svg" alt="LinkedIn" width="24.4%" /></a>
+  <a href="https://www.instagram.com/kurudevworks"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/social_instagram.svg" alt="Instagram" width="24.4%" /></a>
+  <a href="mailto:yunusemrekuru35@gmail.com"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/social_email.svg" alt="Email" width="24.4%" /></a>
+  <a href="https://github.com/yunusemrekuru"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/social_github.svg" alt="GitHub" width="24.4%" /></a>
 
 </div>
 
@@ -106,7 +75,7 @@
 
   <!-- PERMANENT IN-REPO CYBER HUD METRICS -->
   <a href="https://github.com/yunusemrekuru">
-    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/telemetry.svg" alt="Yunus Emre Kuru Cyber Telemetry" width="100%" />
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/core_metrics.svg" alt="Core Metrics — developer telemetry and core domain architecture" width="100%" />
   </a>
 </div>
 
@@ -141,20 +110,16 @@
 <br/><br/>
 
 <!-- ================================================================= -->
-<!-- 🐍 GITHUB SNAKE CONTRIBUTION GRAPH // RETRO ARCADE                -->
+<!-- ⚽ CONTRIBUTION LEAGUE // MATCHDAY                                -->
 <!-- ================================================================= -->
 
 <div align="center">
-  <h2>🐍&nbsp; RETRO ARCADE // CONTRIBUTION SNAKE RUN</h2>
-  <p><i>GitHub commit aktivitelerimin neon turkuaz yılan oyunu animasyonu</i></p>
-  
+  <h2>⚽&nbsp; CONTRIBUTION LEAGUE // MATCHDAY</h2>
+  <p><i>Katkı grafiğim bir gece maçı sahası: bug defansları geç, kaleciyi avlat, gol!</i></p>
+
   <br/>
-  
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
+
+  <img alt="Football pitch animation of Yunus Emre Kuru's GitHub contributions" src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/football-pitch.svg" width="100%" />
 </div>
 
 <br/><br/>

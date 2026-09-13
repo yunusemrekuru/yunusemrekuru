@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 68" width="244" height="68">
+  <defs>
+    <linearGradient id="social_instagramt" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#feda75"/><stop offset="0.5" stop-color="#d62976"/><stop offset="1" stop-color="#4f5bd5"/></linearGradient>
+    <linearGradient id="social_instagramb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e1306c" stop-opacity="0.7"/><stop offset="0.6" stop-color="#e1306c" stop-opacity="0.08"/><stop offset="1" stop-color="#e1306c" stop-opacity="0.3"/></linearGradient>
+    <linearGradient id="social_instagrambg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1122"/><stop offset="1" stop-color="#050810"/></linearGradient>
+    <radialGradient id="social_instagramg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e1306c" stop-opacity="0.3"/><stop offset="1" stop-color="#e1306c" stop-opacity="0"/></radialGradient>
+    <clipPath id="social_instagramc"><rect x="1" y="1" width="242" height="66" rx="18"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="242" height="66" rx="18" fill="url(#social_instagrambg)"/>
+  <g clip-path="url(#social_instagramc)"><circle cx="36" cy="34" r="90" fill="url(#social_instagramg)"/></g>
+  <rect x="1" y="1" width="242" height="66" rx="18" fill="none" stroke="url(#social_instagramb)" stroke-width="1.2"/>
+
+  <rect x="12" y="12" width="44" height="44" rx="13" fill="url(#social_instagramt)"/>
+  <rect x="12.5" y="12.5" width="43" height="43" rx="12.5" fill="none" stroke="#fff" stroke-opacity="0.22"/>
+  <g transform="translate(23,23) scale(1.1)"><rect x="3" y="3" width="14" height="14" rx="4" fill="none" stroke="#fff" stroke-width="1.6"/><circle cx="10" cy="10" r="3.2" fill="none" stroke="#fff" stroke-width="1.6"/><circle cx="14" cy="6" r="1" fill="#fff"/></g>
+
+  <text x="70" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="15.5" font-weight="700" fill="#f8fafc">Instagram</text>
+  <text x="70" y="50" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" fill="#7d8ba3">@kurudevworks</text>
+
+  <circle cx="214" cy="34" r="14" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+  <path d="M210 38 L218 30 M212 30 H218 V36" fill="none" stroke="#e1306c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

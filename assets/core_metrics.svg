@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" width="1000" height="380">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1122"/><stop offset="1" stop-color="#050810"/></linearGradient>
+    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.8"/><stop offset="0.5" stop-color="#4facfe" stop-opacity="0.1"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0.6"/></linearGradient>
+    <linearGradient id="hdSpark" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5d4"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#7fe9da"/></linearGradient>
+    <radialGradient id="g1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.16"/><stop offset="1" stop-color="#00f5d4" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.14"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.9" fill="#ffffff" fill-opacity="0.045"/></pattern>
+    <clipPath id="card"><rect x="1" y="1" width="998" height="378" rx="22"/></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="378" rx="22" fill="url(#bg)"/>
+  <g clip-path="url(#card)">
+    <rect width="1000" height="380" fill="url(#dots)"/>
+    <circle cx="80" cy="40" r="340" fill="url(#g1)"><animate attributeName="opacity" values="0.7;1;0.7" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="380" r="360" fill="url(#g2)"><animate attributeName="opacity" values="1;0.7;1" dur="7s" repeatCount="indefinite"/></circle>
+    <rect x="0" y="0" width="1000" height="54" fill="#070b16" fill-opacity="0.65"/>
+    <line x1="0" y1="54" x2="1000" y2="54" stroke="#ffffff" stroke-opacity="0.06"/>
+  </g>
+  <rect x="1" y="1" width="998" height="378" rx="22" fill="none" stroke="url(#bd)" stroke-width="1.3"/>
+
+  <!-- header -->
+  <circle cx="32" cy="27" r="4.5" fill="#00f5d4"/>
+  <circle cx="32" cy="27" r="4.5" fill="none" stroke="#00f5d4" stroke-width="1.5"><animate attributeName="r" values="4.5;11" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="48" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="15" font-weight="800" fill="url(#ttl)" letter-spacing="-0.2">Core Metrics</text>
+  <text x="152" y="32" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#475569" letter-spacing="0.5">/ telemetry.sys</text>
+  <path d="M750 34 L758 28.4 L766 32.6 L774 25.6 L782 31.2 L790 24.2 L798 29.799999999999997 L806 27 L814 32.6 L822 22.8 L830 28.4 L838 25.6" fill="none" stroke="url(#hdSpark)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="120" stroke-dashoffset="120"><animate attributeName="stroke-dashoffset" values="120;0;0;-120" keyTimes="0;0.4;0.7;1" dur="4s" repeatCount="indefinite"/></path>
+  <text x="968" y="31" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.4" fill="#34d399">● ALL SYSTEMS NOMINAL</text>
+
+  <!-- column labels -->
+  <text x="34" y="88" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="2.2" fill="#00f5d4">DEVELOPER TELEMETRY</text>
+  <text x="464" y="88" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" fill="#334155">04</text>
+  <text x="502" y="88" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="2.2" fill="#a78bfa">CORE DOMAIN ARCHITECTURE</text>
+  <text x="968" y="88" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10.5" fill="#334155">04</text>
+  <line x1="482" y1="104" x2="482" y2="350" stroke="#ffffff" stroke-opacity="0.06" stroke-dasharray="2 5"/>
+
+  
+  <defs>
+    <clipPath id="r0c"><rect x="32" y="104" width="432" height="54" rx="14"/></clipPath>
+    <linearGradient id="r0s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5d4" stop-opacity="0"/><stop offset="0.5" stop-color="#00f5d4" stop-opacity="0.10"/><stop offset="1" stop-color="#00f5d4" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r0f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="32" y="104" width="432" height="54" rx="14" fill="url(#r0f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r0c)">
+    <rect x="-128" y="104" width="160" height="54" fill="url(#r0s)"><animateTransform attributeName="transform" type="translate" values="0 0;592 0;592 0" keyTimes="0;0.35;1" dur="7s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="32" y="118" width="3" height="26" rx="1.5" fill="#00f5d4"/>
+  </g><rect x="48" y="114" width="34" height="34" rx="10" fill="#00f5d4" fill-opacity="0.12" stroke="#00f5d4" stroke-opacity="0.35"/><g transform="translate(57,123)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4.5h4l1.5 1.8H14v6.7a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" stroke="#00f5d4"/><path d="M2 8h12" stroke="#00f5d4" stroke-opacity="0.5"/></g><text x="96" y="136" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="500" fill="#cbd5e1">Total Built Repositories</text><text x="446" y="136" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="700" fill="#00f5d4">23+ builds</text>
+  <defs>
+    <clipPath id="r1c"><rect x="32" y="168" width="432" height="54" rx="14"/></clipPath>
+    <linearGradient id="r1s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#44d1fd" stop-opacity="0"/><stop offset="0.5" stop-color="#44d1fd" stop-opacity="0.10"/><stop offset="1" stop-color="#44d1fd" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r1f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#44d1fd" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="32" y="168" width="432" height="54" rx="14" fill="url(#r1f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r1c)">
+    <rect x="-128" y="168" width="160" height="54" fill="url(#r1s)"><animateTransform attributeName="transform" type="translate" values="0 0;592 0;592 0" keyTimes="0;0.35;1" dur="7s" begin="0.45s" repeatCount="indefinite"/></rect>
+    <rect x="32" y="182" width="3" height="26" rx="1.5" fill="#44d1fd"/>
+  </g><rect x="48" y="178" width="34" height="34" rx="10" fill="#44d1fd" fill-opacity="0.12" stroke="#44d1fd" stroke-opacity="0.35"/><g transform="translate(57,187)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="1.5" width="7" height="13" rx="2" stroke="#44d1fd"/><path d="M7 12.2h2" stroke="#44d1fd"/></g><text x="96" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="500" fill="#cbd5e1">Mobile Architecture</text><text x="446" y="200" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="700" fill="#44d1fd">Flutter &amp; Dart</text>
+  <defs>
+    <clipPath id="r2c"><rect x="32" y="232" width="432" height="54" rx="14"/></clipPath>
+    <linearGradient id="r2s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ecf8e" stop-opacity="0"/><stop offset="0.5" stop-color="#3ecf8e" stop-opacity="0.10"/><stop offset="1" stop-color="#3ecf8e" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r2f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ecf8e" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="32" y="232" width="432" height="54" rx="14" fill="url(#r2f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r2c)">
+    <rect x="-128" y="232" width="160" height="54" fill="url(#r2s)"><animateTransform attributeName="transform" type="translate" values="0 0;592 0;592 0" keyTimes="0;0.35;1" dur="7s" begin="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="32" y="246" width="3" height="26" rx="1.5" fill="#3ecf8e"/>
+  </g><rect x="48" y="242" width="34" height="34" rx="10" fill="#3ecf8e" fill-opacity="0.12" stroke="#3ecf8e" stroke-opacity="0.35"/><g transform="translate(57,251)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5h7.2a2.8 2.8 0 0 0 .3-5.6A4 4 0 0 0 4.3 6.2 3.2 3.2 0 0 0 4.5 12.5z" stroke="#3ecf8e"/><path d="M8.6 7.2 7 9.6h2l-1.6 2.4" stroke="#3ecf8e"/></g><text x="96" y="264" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="500" fill="#cbd5e1">Cloud &amp; Real-time BaaS</text><text x="446" y="264" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="700" fill="#3ecf8e">Supabase / Firebase</text>
+  <defs>
+    <clipPath id="r3c"><rect x="32" y="296" width="432" height="54" rx="14"/></clipPath>
+    <linearGradient id="r3s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.10"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r3f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="32" y="296" width="432" height="54" rx="14" fill="url(#r3f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r3c)">
+    <rect x="-128" y="296" width="160" height="54" fill="url(#r3s)"><animateTransform attributeName="transform" type="translate" values="0 0;592 0;592 0" keyTimes="0;0.35;1" dur="7s" begin="1.35s" repeatCount="indefinite"/></rect>
+    <rect x="32" y="310" width="3" height="26" rx="1.5" fill="#a78bfa"/>
+  </g><rect x="48" y="306" width="34" height="34" rx="10" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.35"/><g transform="translate(57,315)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1.5 8S4 3.5 8 3.5 14.5 8 14.5 8 12 12.5 8 12.5 1.5 8 1.5 8z" stroke="#a78bfa"/><circle cx="8" cy="8" r="2.2" stroke="#a78bfa"/><circle cx="8" cy="8" r="0.6" fill="#a78bfa" stroke="none"/></g><text x="96" y="328" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="500" fill="#cbd5e1">Computer Vision &amp; AI</text><text x="446" y="328" text-anchor="end" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13" font-weight="700" fill="#a78bfa">OpenCV &amp; Python</text>
+  
+  <defs>
+    <clipPath id="r4c"><rect x="500" y="104" width="468" height="54" rx="14"/></clipPath>
+    <linearGradient id="r4s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#44d1fd" stop-opacity="0"/><stop offset="0.5" stop-color="#44d1fd" stop-opacity="0.10"/><stop offset="1" stop-color="#44d1fd" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r4f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#44d1fd" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="500" y="104" width="468" height="54" rx="14" fill="url(#r4f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r4c)">
+    <rect x="340" y="104" width="160" height="54" fill="url(#r4s)"><animateTransform attributeName="transform" type="translate" values="0 0;628 0;628 0" keyTimes="0;0.35;1" dur="7s" begin="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="500" y="118" width="3" height="26" rx="1.5" fill="#44d1fd"/>
+  </g><rect x="516" y="114" width="34" height="34" rx="10" fill="#44d1fd" fill-opacity="0.12" stroke="#44d1fd" stroke-opacity="0.35"/><g transform="translate(525,123)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="1.5" width="7" height="13" rx="2" stroke="#44d1fd"/><path d="M7 12.2h2" stroke="#44d1fd"/></g><text x="564" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Mobile Engineering</text><text x="564" y="146" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#7d8ba3">Flutter · iOS · Android</text><rect x="864" y="120" width="86" height="22" rx="11" fill="#44d1fd" fill-opacity="0.10" stroke="#44d1fd" stroke-opacity="0.45"/><text x="907" y="135" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#44d1fd">CORE STACK</text>
+  <defs>
+    <clipPath id="r5c"><rect x="500" y="168" width="468" height="54" rx="14"/></clipPath>
+    <linearGradient id="r5s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.10"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r5f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="500" y="168" width="468" height="54" rx="14" fill="url(#r5f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r5c)">
+    <rect x="340" y="168" width="160" height="54" fill="url(#r5s)"><animateTransform attributeName="transform" type="translate" values="0 0;628 0;628 0" keyTimes="0;0.35;1" dur="7s" begin="2.25s" repeatCount="indefinite"/></rect>
+    <rect x="500" y="182" width="3" height="26" rx="1.5" fill="#a78bfa"/>
+  </g><rect x="516" y="178" width="34" height="34" rx="10" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.35"/><g transform="translate(525,187)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1.5 8S4 3.5 8 3.5 14.5 8 14.5 8 12 12.5 8 12.5 1.5 8 1.5 8z" stroke="#a78bfa"/><circle cx="8" cy="8" r="2.2" stroke="#a78bfa"/><circle cx="8" cy="8" r="0.6" fill="#a78bfa" stroke="none"/></g><text x="564" y="192" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Computer Vision</text><text x="564" y="210" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#7d8ba3">OpenCV · YOLO · AI Lab</text><rect x="858" y="184" width="92" height="22" rx="11" fill="#a78bfa" fill-opacity="0.10" stroke="#a78bfa" stroke-opacity="0.45"/><text x="904" y="199" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#a78bfa">APPLIED R&amp;D</text>
+  <defs>
+    <clipPath id="r6c"><rect x="500" y="232" width="468" height="54" rx="14"/></clipPath>
+    <linearGradient id="r6s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff8a4c" stop-opacity="0"/><stop offset="0.5" stop-color="#ff8a4c" stop-opacity="0.10"/><stop offset="1" stop-color="#ff8a4c" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r6f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff8a4c" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="500" y="232" width="468" height="54" rx="14" fill="url(#r6f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r6c)">
+    <rect x="340" y="232" width="160" height="54" fill="url(#r6s)"><animateTransform attributeName="transform" type="translate" values="0 0;628 0;628 0" keyTimes="0;0.35;1" dur="7s" begin="2.7s" repeatCount="indefinite"/></rect>
+    <rect x="500" y="246" width="3" height="26" rx="1.5" fill="#ff8a4c"/>
+  </g><rect x="516" y="242" width="34" height="34" rx="10" fill="#ff8a4c" fill-opacity="0.12" stroke="#ff8a4c" stroke-opacity="0.35"/><g transform="translate(525,251)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6.3" stroke="#ff8a4c"/><ellipse cx="8" cy="8" rx="2.6" ry="6.3" stroke="#ff8a4c"/><path d="M1.8 8h12.4" stroke="#ff8a4c"/></g><text x="564" y="256" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Web Platforms</text><text x="564" y="274" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#7d8ba3">PHP · JS · HTML5 · CSS3</text><rect x="864" y="248" width="86" height="22" rx="11" fill="#ff8a4c" fill-opacity="0.10" stroke="#ff8a4c" stroke-opacity="0.45"/><text x="907" y="263" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#ff8a4c">PRODUCTION</text>
+  <defs>
+    <clipPath id="r7c"><rect x="500" y="296" width="468" height="54" rx="14"/></clipPath>
+    <linearGradient id="r7s" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ecf8e" stop-opacity="0"/><stop offset="0.5" stop-color="#3ecf8e" stop-opacity="0.10"/><stop offset="1" stop-color="#3ecf8e" stop-opacity="0"/></linearGradient>
+    <linearGradient id="r7f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ecf8e" stop-opacity="0.10"/><stop offset="0.35" stop-color="#0f172a" stop-opacity="0.55"/><stop offset="1" stop-color="#0f172a" stop-opacity="0.55"/></linearGradient>
+  </defs>
+  <rect x="500" y="296" width="468" height="54" rx="14" fill="url(#r7f)" stroke="#ffffff" stroke-opacity="0.07"/>
+  <g clip-path="url(#r7c)">
+    <rect x="340" y="296" width="160" height="54" fill="url(#r7s)"><animateTransform attributeName="transform" type="translate" values="0 0;628 0;628 0" keyTimes="0;0.35;1" dur="7s" begin="3.15s" repeatCount="indefinite"/></rect>
+    <rect x="500" y="310" width="3" height="26" rx="1.5" fill="#3ecf8e"/>
+  </g><rect x="516" y="306" width="34" height="34" rx="10" fill="#3ecf8e" fill-opacity="0.12" stroke="#3ecf8e" stroke-opacity="0.35"/><g transform="translate(525,315)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12.5h7.2a2.8 2.8 0 0 0 .3-5.6A4 4 0 0 0 4.3 6.2 3.2 3.2 0 0 0 4.5 12.5z" stroke="#3ecf8e"/><path d="M8.6 7.2 7 9.6h2l-1.6 2.4" stroke="#3ecf8e"/></g><text x="564" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Cloud &amp; Real-time</text><text x="564" y="338" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#7d8ba3">Supabase · Firebase · C#</text><rect x="877" y="312" width="73" height="22" rx="11" fill="#3ecf8e" fill-opacity="0.10" stroke="#3ecf8e" stroke-opacity="0.45"/><text x="913.5" y="327" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#3ecf8e">SCALABLE</text>
+</svg>
