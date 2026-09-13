@@ -24,6 +24,7 @@
     <img src="https://img.shields.io/badge/STATUS-ACTIVE%20BUILDING-00f5d4?style=for-the-badge&logo=statuspage&logoColor=070c18&labelColor=0a0f1d" alt="Status" />
     <img src="https://komarev.com/ghpvc/?username=yunusemrekuru&color=00f5d4&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0a0f1d" alt="Profile Views" />
     <img src="https://img.shields.io/github/followers/yunusemrekuru?style=for-the-badge&color=00f2fe&logo=github&logoColor=ffffff&labelColor=0a0f1d" alt="Followers" />
+    <img src="https://img.shields.io/badge/SPORT-FOOTBALL%20%E2%9A%BD-00f5d4?style=for-the-badge&logoColor=070c18&labelColor=0a0f1d" alt="Football" />
     <img src="https://img.shields.io/badge/STUDIO-%40KURUDEVWORKS-4facfe?style=for-the-badge&logo=instagram&logoColor=ffffff&labelColor=0a0f1d" alt="Studio" />
   </p>
 
@@ -159,7 +160,7 @@ const developer: DeveloperProfile = {
     <tr>
       <td>
         <a href="https://github.com/yunusemrekuru">
-          <img src="https://github-readme-stats.vercel.app/api?username=yunusemrekuru&show_icons=true&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&icon_color=00f2fe&border_color=00f5d440&border_radius=14&hide_border=false" alt="Yunus Emre Kuru GitHub Stats" height="195" />
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=yunusemrekuru&show_icons=true&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&icon_color=00f2fe&border_color=00f5d440&border_radius=14&hide_border=false" alt="Yunus Emre Kuru GitHub Stats" height="195" />
         </a>
       </td>
       <td>
@@ -174,7 +175,7 @@ const developer: DeveloperProfile = {
 
   <!-- Top Languages Bar -->
   <a href="https://github.com/yunusemrekuru">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yunusemrekuru&layout=compact&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&border_color=00f5d440&border_radius=14&langs_count=8" alt="Top Languages" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=yunusemrekuru&layout=compact&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&border_color=00f5d440&border_radius=14&langs_count=8" alt="Top Languages" />
   </a>
 
 </div>
@@ -238,6 +239,25 @@ const developer: DeveloperProfile = {
     </td>
   </tr>
 </table>
+
+<br/><br/>
+
+<!-- ================================================================= -->
+<!-- 🐍 GITHUB SNAKE CONTRIBUTION GRAPH // RETRO ARCADE                -->
+<!-- ================================================================= -->
+
+<div align="center">
+  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="30" />&nbsp; RETRO ARCADE // CONTRIBUTION SNAKE RUN</h2>
+  <p><i>GitHub commit aktivitelerimin neon turkuaz yılan oyunu animasyonu</i></p>
+  
+  <br/>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
 
 <br/><br/>
 
