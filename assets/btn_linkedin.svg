@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 40" width="165" height="40">
+  <defs>
+    <linearGradient id="btnBg_LinkedIn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1326" />
+      <stop offset="100%" stop-color="#050813" />
+    </linearGradient>
+    <filter id="glow_LinkedIn" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0A66C2" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <style>
+    .btn-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #ffffff;
+      letter-spacing: 0.3px;
+    }
+    .btn-sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 9.5px;
+      font-weight: 600;
+      fill: #0A66C2;
+      letter-spacing: 0.4px;
+    }
+  </style>
+  <rect x="1.5" y="1.5" width="162" height="37" rx="10" fill="url(#btnBg_LinkedIn)" stroke="#0A66C2" stroke-width="1.5" stroke-opacity="0.75" filter="url(#glow_LinkedIn)" />
+  <g transform="translate(14, 10)">
+    
+    <rect width="20" height="20" rx="4" fill="#0A66C2" />
+    <path d="M5 8h2.5v7H5V8zm1.25-3.5a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8zM9 8h2.4v1h.03c.33-.63 1.15-1.3 2.37-1.3C16.3 7.7 17 9.3 17 11.4V15h-2.5v-3.2c0-.76-.02-1.74-1.06-1.74-1.06 0-1.22.83-1.22 1.69V15H9.7V8z" fill="#ffffff" />
+  
+  </g>
+  <text x="44" y="19" class="btn-title">LinkedIn</text>
+  <text x="44" y="31" class="btn-sub">Connect ↗</text>
+</svg>

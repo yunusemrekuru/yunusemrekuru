@@ -12,46 +12,52 @@
 
   <br/><br/>
 
-  <!-- DYNAMIC TYPING SVG -->
+  <!-- DYNAMIC CYBER TYPING HUD -->
   <a href="https://github.com/yunusemrekuru">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&multiline=false&width=720&height=45&lines=Full-Stack+Software+Developer;Mobile+%26+Web+Application+Specialist;Flutter+%E2%80%A2+Supabase+%E2%80%A2+Firebase+%E2%80%A2+Python+%E2%80%A2+PHP;Computer+Vision+%26+Deep+Tech+Enthusiast;Founder+%40kurudevworks+%7C+Crafting+Impactful+Apps." alt="Typing SVG" />
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/typing_hud.svg" alt="Yunus Emre Kuru Terminal HUD" width="100%" />
   </a>
 
-  <br/>
+  <br/><br/>
 
-  <!-- QUICK HUD STATS -->
+  <!-- QUICK HUD TELEMETRY CHIPS -->
   <p align="center">
-    <img src="https://img.shields.io/badge/System-Online_%26_Active-00f5d4?style=flat-square&logo=statuspage&logoColor=070c18" alt="Status" />
+    <a href="mailto:yunusemrekuru35@gmail.com">
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_status.svg" alt="Status" />
+    </a>
     &nbsp;
     <a href="https://github.com/yunusemrekuru?tab=repositories">
-      <img src="https://img.shields.io/badge/Portfolio-23_Projects-00f2fe?style=flat-square&logo=git&logoColor=070c18" alt="Repositories" />
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_repos.svg" alt="Portfolio" />
     </a>
     &nbsp;
-    <img src="https://komarev.com/ghpvc/?username=yunusemrekuru&color=00f5d4&style=flat-square&label=Profile_Views" alt="Profile Views" />
+    <a href="https://github.com/yunusemrekuru">
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_views.svg" alt="Telemetry" />
+    </a>
     &nbsp;
     <a href="https://www.instagram.com/kurudevworks" target="_blank">
-      <img src="https://img.shields.io/badge/Studio-%40kurudevworks-4facfe?style=flat-square&logo=instagram&logoColor=white" alt="Studio" />
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_studio.svg" alt="Studio" />
     </a>
     &nbsp;
-    <img src="https://img.shields.io/badge/Passion-Football_%E2%9A%BD-00f5d4?style=flat-square" alt="Football" />
+    <a href="https://github.com/yunusemrekuru">
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/hud_sports.svg" alt="Passion" />
+    </a>
   </p>
 
   <!-- SOCIAL CONNECT DOCK -->
   <p align="center">
     <a href="https://www.linkedin.com/in/yunus-emre-kuru-436b52237/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_linkedin.svg" alt="LinkedIn" />
     </a>
     &nbsp;&nbsp;
     <a href="https://www.instagram.com/kurudevworks" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-Follow_%40kurudevworks-E1306C?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_instagram.svg" alt="Instagram" />
     </a>
     &nbsp;&nbsp;
     <a href="mailto:yunusemrekuru35@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Get_in_Touch-00f5d4?style=flat-square&logo=gmail&logoColor=070c18" alt="Email" />
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_email.svg" alt="Email" />
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/yunusemrekuru">
-      <img src="https://img.shields.io/badge/GitHub-Follow-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/btn_github.svg" alt="GitHub" />
     </a>
   </p>
 
