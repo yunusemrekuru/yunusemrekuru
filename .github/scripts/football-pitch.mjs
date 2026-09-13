@@ -1,7 +1,7 @@
 // Generates assets/football-pitch.svg — the contribution calendar rendered as a night-match
 // football pitch: the ball is dribbled past "bug" defenders across the year, then shot into the net.
 // Usage: GITHUB_TOKEN=... GITHUB_USER=yunusemrekuru node .github/scripts/football-pitch.mjs [out.svg]
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 
 const USER = process.env.GITHUB_USER || 'yunusemrekuru';
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -37,6 +37,8 @@ const GX = Math.round(W / 2 - GW / 2), CY = 164, GY = CY - Math.round(GH / 2);
 const PX0 = GX - 22, PX1 = GX + GW + 22, PY0 = GY - 22, PY1 = GY + GH + 22; // touchlines
 const GOAL = { x: PX1 + 4, y: CY + 7 };
 const T = 24; // loop seconds
+const CREST = 'data:image/jpeg;base64,' + readFileSync(new URL('../../assets/kurudevworks_emblem.jpg', import.meta.url)).toString('base64');
+const CREST_HEX = 'M142.7 11.0 Q160 1 177.3 11.0 L284.7 73.0 Q302 83 302.0 103.0 L302.0 219.0 Q302 239 284.6 248.9 L177.4 310.1 Q160 320 142.6 310.1 L35.4 248.9 Q18 239 18.0 219.0 L18.0 103.0 Q18 83 35.3 73.0 Z'; // rounded hexagon around the emblem, 320px space
 const tKick = 0.03, tDrib = 0.68, tShot = 0.74, tReset = 0.97;
 
 const SANS = "font-family=\"-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif\"";
@@ -161,7 +163,7 @@ for (let i = 0; i < 22; i++) {
 const anim = (attr, values, times, extra = '') => `<animate attributeName="${attr}" values="${values}" keyTimes="${times}" dur="${T}s" repeatCount="indefinite"${extra}/>`;
 const showGoal = `0;0;1;1;0;0`, showGoalT = `0;${f(tShot)};${f(tShot + 0.012)};${f(tReset - 0.03)};${f(tReset)};1`;
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1122"/><stop offset="1" stop-color="#050810"/></linearGradient>
     <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.8"/><stop offset="0.5" stop-color="#34d399" stop-opacity="0.1"/><stop offset="1" stop-color="#ffd23f" stop-opacity="0.55"/></linearGradient>
@@ -185,13 +187,14 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" wid
   <!-- header -->
   <text x="32" y="38" ${SANS} font-size="15" font-weight="800" fill="#f8fafc">⚽ Matchday</text>
   <text x="140" y="38" ${MONO} font-size="11" fill="#475569">/ season ${season}</text>
-  <g transform="translate(${W / 2 - 160} 16)">
-    <rect width="320" height="38" rx="12" fill="#050a14" stroke="#ffffff" stroke-opacity="0.1"/>
-    <text x="72" y="24" text-anchor="middle" ${MONO} font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#00f5d4">KURU DEVWORKS</text>
-    <rect x="130" y="7" width="60" height="24" rx="6" fill="#0f172a"/>
-    <text x="160" y="25" text-anchor="middle" ${SANS} font-size="17" font-weight="800" fill="#ffffff">0 – 0${anim('opacity', '1;0;1', `0;${f(tShot)};${f(tReset + 0.015)}`, ' calcMode="discrete"')}</text>
-    <text x="160" y="25" text-anchor="middle" ${SANS} font-size="17" font-weight="800" fill="#00f5d4" opacity="0">1 – 0${anim('opacity', '0;1;0', `0;${f(tShot)};${f(tReset + 0.015)}`, ' calcMode="discrete"')}</text>
-    <text x="248" y="24" text-anchor="middle" ${MONO} font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#ff6b86">BUGS</text>
+  <g transform="translate(${W / 2 - 175} 16)">
+    <rect width="350" height="38" rx="12" fill="#050a14" stroke="#ffffff" stroke-opacity="0.1"/>
+    <clipPath id="crest"><path transform="translate(8 5) scale(0.0875)" d="${CREST_HEX}"/></clipPath><image x="8" y="5" width="28" height="28" href="${CREST}" xlink:href="${CREST}" clip-path="url(#crest)"/>
+    <text x="90" y="24" text-anchor="middle" ${MONO} font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#00f5d4">KURU DEVWORKS</text>
+    <rect x="148" y="7" width="60" height="24" rx="6" fill="#0f172a"/>
+    <text x="178" y="25" text-anchor="middle" ${SANS} font-size="17" font-weight="800" fill="#ffffff">0 – 0${anim('opacity', '1;0;1', `0;${f(tShot)};${f(tReset + 0.015)}`, ' calcMode="discrete"')}</text>
+    <text x="178" y="25" text-anchor="middle" ${SANS} font-size="17" font-weight="800" fill="#00f5d4" opacity="0">1 – 0${anim('opacity', '0;1;0', `0;${f(tShot)};${f(tReset + 0.015)}`, ' calcMode="discrete"')}</text>
+    <text x="280" y="24" text-anchor="middle" ${MONO} font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#ff6b86">BUGS</text>
   </g>
   <circle cx="${W - 78}" cy="34" r="4" fill="#ff4d6d">${anim('opacity', '1;0.25;1', '0;0.5;1', '')}</circle>
   <text x="${W - 32}" y="38" text-anchor="end" ${MONO} font-size="11" font-weight="700" letter-spacing="1.5" fill="#ff8fa3">LIVE</text>
