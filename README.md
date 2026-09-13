@@ -73,30 +73,9 @@
   <h2>💻&nbsp; TERMINAL HUD // PROFILE OVERVIEW</h2>
 </div>
 
-```typescript
-/**
- * @name Yunus Emre Kuru
- * @role Full-Stack Software Developer | Mobile & Web Application Development
- * @brand @kurudevworks
- */
-
-const developer: DeveloperProfile = {
-  name: "Yunus Emre Kuru",
-  title: "Full-Stack Software Developer",
-  focusAreas: [
-    "Cross-Platform Mobile Development (Flutter & Dart)",
-    "Modern Full-Stack Web Architectures (PHP, Python, JS/TS)",
-    "Cloud & BaaS Integration (Supabase, Firebase)",
-    "Computer Vision & Deep Machine Learning (OpenCV, YOLO, Random Forest)"
-  ],
-  engineeringPrinciples: [
-    "Pixel-perfect, fluid user interfaces",
-    "Clean, maintainable, production-ready codebases",
-    "Robust API and real-time database architectures"
-  ],
-  motto: "Building seamless digital bridges between ideas, screens, and scalable cloud backends."
-};
-```
+<div align="center">
+  <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/about_editor.svg" alt="developer.ts — Yunus Emre Kuru" width="100%" />
+</div>
 
 <br/>
 
@@ -182,58 +161,26 @@ const developer: DeveloperProfile = {
 <!-- ================================================================= -->
 
 <div align="center">
-  <h2>🚀&nbsp; FEATURED BUILDS // HIGHLIGHTS</h2>
-  <p><i>Açık kaynak projelerim, makine öğrenmesi laboratuvarları ve mobil çözümler</i></p>
+  <h2>🚀&nbsp; FEATURED BUILDS // PRODUCTS</h2>
+  <p><i>@kurudevworks çatısı altında geliştirdiğim ürünler &bull; kaynak kodları private, vitrin herkese açık</i></p>
+
+  <br/>
+
+  <a href="https://www.instagram.com/kurudevworks"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/project_planovanet.svg" alt="PlanovaNet" width="49%" /></a>
+  <a href="https://www.instagram.com/kurudevworks"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/project_pactra.svg" alt="Pactra" width="49%" /></a>
+  <a href="https://civar.app"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/project_civar.svg" alt="Civar" width="49%" /></a>
+  <a href="https://www.instagram.com/kurudevworks"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/project_turquaz.svg" alt="Turquaz" width="49%" /></a>
+  <a href="https://www.instagram.com/kurudevworks"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/project_kuryemapp.svg" alt="Kuryemapp" width="49%" /></a>
+  <a href="https://www.instagram.com/kurudevworks"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/project_wasl.svg" alt="Wasl" width="49%" /></a>
+
+  <br/><br/>
+
+  <h3>🧪&nbsp; OPEN SOURCE LAB</h3>
+
+  <a href="https://github.com/yunusemrekuru/Goruntu-isleme-lab"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/lab_vision.svg" alt="Görüntü İşleme Lab" width="32.5%" /></a>
+  <a href="https://github.com/yunusemrekuru/Breast-Cancer-Prediction-With-Machine-Learning--Random-Forest-"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/lab_cancer.svg" alt="Breast Cancer ML" width="32.5%" /></a>
+  <a href="https://github.com/yunusemrekuru/C_Sharp"><img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/lab_csharp.svg" alt="C# Algorithms" width="32.5%" /></a>
 </div>
-
-<br/>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>👁️ <a href="https://github.com/yunusemrekuru/Goruntu-isleme-lab">Goruntu-isleme-lab</a></h3>
-      <p>OpenCV ile Bilgisayarlı Görü ders notları ve laboratuvarı: 40+ Jupyter Notebook ile nesne algılama, yüz tanıma, YOLO modelleri, OCR ve video işleme pratikleri.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-        <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
-      </p>
-      <a href="https://github.com/yunusemrekuru/Goruntu-isleme-lab"><b>GitHub Deposunu İncele &rarr;</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎗️ <a href="https://github.com/yunusemrekuru/Breast-Cancer-Prediction-With-Machine-Learning--Random-Forest-">Breast Cancer ML Prediction</a></h3>
-      <p>Meme kanseri erken teşhisi için Random Forest (Rastgele Orman) algoritması kullanılarak geliştirilmiş yüksek doğruluk oranlı makine öğrenmesi tahmin modeli.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat-square&logo=scikitlearn&logoColor=white" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Random%20Forest-00f5d4?style=flat-square&logo=gitbook&logoColor=black" />
-      </p>
-      <a href="https://github.com/yunusemrekuru/Breast-Cancer-Prediction-With-Machine-Learning--Random-Forest-"><b>GitHub Deposunu İncele &rarr;</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📱 <a href="https://www.instagram.com/kurudevworks">Mobile & Full-Stack Apps (@kurudevworks)</a></h3>
-      <p>Flutter ile iOS ve Android platformları için modern, akıcı ve yüksek performanslı mobil uygulamalar; Supabase ve Firebase gerçek zamanlı veritabanı entegrasyonları.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-      </p>
-      <a href="https://www.instagram.com/kurudevworks"><b>Instagram'da İncele &rarr;</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚙️ <a href="https://github.com/yunusemrekuru/C_Sharp">C_Sharp Enterprise & Algorithms</a></h3>
-      <p>C# ve .NET ekosistemi üzerinde geliştirilmiş nesne yönelimli programlama pratikleri, veri yapıları, algoritmik çözümler ve mimari desenler.</p>
-      <p>
-        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" />
-        <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-        <img src="https://img.shields.io/badge/OOP-00f2fe?style=flat-square&logo=codeforces&logoColor=black" />
-      </p>
-      <a href="https://github.com/yunusemrekuru/C_Sharp"><b>GitHub Deposunu İncele &rarr;</b></a>
-    </td>
-  </tr>
-</table>
 
 <br/><br/>
 
