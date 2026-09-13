@@ -6,16 +6,6 @@
       <stop offset="100%" stop-color="#040812" />
     </linearGradient>
 
-    <linearGradient id="barGradCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f5d4" />
-      <stop offset="100%" stop-color="#00f2fe" />
-    </linearGradient>
-
-    <linearGradient id="barGradBlue" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4facfe" />
-      <stop offset="100%" stop-color="#00f5d4" />
-    </linearGradient>
-
     <linearGradient id="hudBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.6" />
       <stop offset="50%" stop-color="#4facfe" stop-opacity="0.2" />
@@ -44,84 +34,84 @@
   <rect x="2" y="2" width="996" height="246" rx="16" fill="url(#hudBg)" stroke="url(#hudBorder)" stroke-width="1.5" />
   <rect x="2" y="2" width="996" height="246" rx="16" fill="url(#hudGrid)" />
 
-  <!-- Divider Line -->
-  <line x1="470" y1="25" x2="470" y2="225" stroke="#00f5d4" stroke-opacity="0.18" stroke-dasharray="4,4" />
+  <!-- Center Divider Line -->
+  <line x1="475" y1="25" x2="475" y2="225" stroke="#00f5d4" stroke-opacity="0.18" stroke-dasharray="4,4" />
 
   <!-- ================= LEFT COLUMN: DEVELOPER METRICS ================= -->
   <g transform="translate(45, 30)">
-    <text x="0" y="15" fill="#00f5d4" font-size="12" font-weight="700" letter-spacing="2.5" class="mono">// DEVELOPER TELEMETRY &amp; STATS</text>
+    <text x="0" y="15" fill="#00f5d4" font-size="12" font-weight="700" letter-spacing="2.5" class="mono">// DEVELOPER TELEMETRY</text>
 
-    <!-- Stat 1: Repositories -->
+    <!-- Metric 1: Repositories -->
     <g transform="translate(0, 36)">
-      <rect x="0" y="0" width="380" height="34" rx="8" fill="#0c172d" fill-opacity="0.7" stroke="#00f5d4" stroke-opacity="0.2" />
+      <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
       <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">📁 Total Built Repositories</text>
-      <text x="365" y="22" fill="#00f5d4" font-size="14" font-weight="700" text-anchor="end" class="mono">23+ Projects</text>
+      <text x="370" y="22" fill="#00f5d4" font-size="13.5" font-weight="700" text-anchor="end" class="mono">23+ Builds</text>
     </g>
 
-    <!-- Stat 2: Core Engineering -->
+    <!-- Metric 2: Core Engineering -->
     <g transform="translate(0, 78)">
-      <rect x="0" y="0" width="380" height="34" rx="8" fill="#0c172d" fill-opacity="0.7" stroke="#00f5d4" stroke-opacity="0.2" />
+      <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
       <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">📱 Mobile &amp; App Architecture</text>
-      <text x="365" y="22" fill="#00f5d4" font-size="13" font-weight="700" text-anchor="end" class="mono">Flutter &amp; Dart</text>
+      <text x="370" y="22" fill="#00f5d4" font-size="13" font-weight="700" text-anchor="end" class="mono">Flutter &amp; Dart</text>
     </g>
 
-    <!-- Stat 3: Cloud & DB -->
+    <!-- Metric 3: Cloud & DB -->
     <g transform="translate(0, 120)">
-      <rect x="0" y="0" width="380" height="34" rx="8" fill="#0c172d" fill-opacity="0.7" stroke="#00f5d4" stroke-opacity="0.2" />
+      <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
       <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">⚡ Cloud &amp; Real-time BaaS</text>
-      <text x="365" y="22" fill="#4facfe" font-size="13" font-weight="700" text-anchor="end" class="mono">Supabase / Firebase</text>
+      <text x="370" y="22" fill="#4facfe" font-size="13" font-weight="700" text-anchor="end" class="mono">Supabase / Firebase</text>
     </g>
 
-    <!-- Stat 4: AI & Vision -->
+    <!-- Metric 4: AI & Vision -->
     <g transform="translate(0, 162)">
-      <rect x="0" y="0" width="380" height="34" rx="8" fill="#0c172d" fill-opacity="0.7" stroke="#00f5d4" stroke-opacity="0.2" />
+      <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
       <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">🧠 Computer Vision &amp; AI</text>
-      <text x="365" y="22" fill="#38ef7d" font-size="13" font-weight="700" text-anchor="end" class="mono">OpenCV &amp; Python</text>
+      <text x="370" y="22" fill="#38ef7d" font-size="13" font-weight="700" text-anchor="end" class="mono">OpenCV &amp; Python</text>
     </g>
   </g>
 
-  <!-- ================= RIGHT COLUMN: CORE PROFICIENCY BARS ================= -->
+  <!-- ================= RIGHT COLUMN: DOMAIN ARCHITECTURE PILLARS ================= -->
   <g transform="translate(515, 30)">
-    <text x="0" y="15" fill="#00f5d4" font-size="12" font-weight="700" letter-spacing="2.5" class="mono">// TECH PROFICIENCY MATRIX</text>
+    <text x="0" y="15" fill="#00f5d4" font-size="12" font-weight="700" letter-spacing="2.5" class="mono">// CORE DOMAIN ARCHITECTURE</text>
 
-    <!-- Skill 1: Flutter & Mobile -->
+    <!-- Pillar 1: Mobile -->
     <g transform="translate(0, 36)">
-      <text x="0" y="10" fill="#e2e8f0" font-size="12" font-weight="600" class="sans">Flutter &amp; Cross-Platform Mobile</text>
-      <text x="440" y="10" fill="#00f5d4" font-size="12" font-weight="700" text-anchor="end" class="mono">92%</text>
-      <!-- Track -->
-      <rect x="0" y="17" width="440" height="7" rx="3.5" fill="#0f1f3d" />
-      <!-- Progress -->
-      <rect x="0" y="17" width="405" height="7" rx="3.5" fill="url(#barGradCyan)" filter="url(#subtleGlow)" />
+      <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">📱 Mobile Engineering</text>
+      <text x="175" y="22" fill="#94a3b8" font-size="12" class="sans">Flutter &bull; iOS &bull; Android</text>
+      <!-- Tag Pill -->
+      <rect x="330" y="6" width="98" height="22" rx="6" fill="#00f5d4" fill-opacity="0.12" stroke="#00f5d4" stroke-opacity="0.5" />
+      <text x="379" y="21" fill="#00f5d4" font-size="10" font-weight="700" text-anchor="middle" class="mono">CORE STACK</text>
     </g>
 
-    <!-- Skill 2: Python & OpenCV -->
-    <g transform="translate(0, 74)">
-      <text x="0" y="10" fill="#e2e8f0" font-size="12" font-weight="600" class="sans">Python &amp; Computer Vision (OpenCV)</text>
-      <text x="440" y="10" fill="#00f5d4" font-size="12" font-weight="700" text-anchor="end" class="mono">88%</text>
-      <!-- Track -->
-      <rect x="0" y="17" width="440" height="7" rx="3.5" fill="#0f1f3d" />
-      <!-- Progress -->
-      <rect x="0" y="17" width="387" height="7" rx="3.5" fill="url(#barGradCyan)" />
+    <!-- Pillar 2: Computer Vision -->
+    <g transform="translate(0, 78)">
+      <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">🧠 Computer Vision</text>
+      <text x="165" y="22" fill="#94a3b8" font-size="12" class="sans">OpenCV &bull; YOLO &bull; AI Lab</text>
+      <!-- Tag Pill -->
+      <rect x="330" y="6" width="98" height="22" rx="6" fill="#00f5d4" fill-opacity="0.12" stroke="#00f5d4" stroke-opacity="0.5" />
+      <text x="379" y="21" fill="#00f5d4" font-size="10" font-weight="700" text-anchor="middle" class="mono">APPLIED R&amp;D</text>
     </g>
 
-    <!-- Skill 3: Modern Web & PHP -->
-    <g transform="translate(0, 112)">
-      <text x="0" y="10" fill="#e2e8f0" font-size="12" font-weight="600" class="sans">Modern Web &amp; Backend (PHP, JS, HTML, CSS)</text>
-      <text x="440" y="10" fill="#4facfe" font-size="12" font-weight="700" text-anchor="end" class="mono">86%</text>
-      <!-- Track -->
-      <rect x="0" y="17" width="440" height="7" rx="3.5" fill="#0f1f3d" />
-      <!-- Progress -->
-      <rect x="0" y="17" width="378" height="7" rx="3.5" fill="url(#barGradBlue)" />
+    <!-- Pillar 3: Web Systems -->
+    <g transform="translate(0, 120)">
+      <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#4facfe" stroke-opacity="0.25" />
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">🌐 Web Platforms</text>
+      <text x="148" y="22" fill="#94a3b8" font-size="12" class="sans">PHP &bull; JS &bull; HTML5 &bull; CSS3</text>
+      <!-- Tag Pill -->
+      <rect x="330" y="6" width="98" height="22" rx="6" fill="#4facfe" fill-opacity="0.12" stroke="#4facfe" stroke-opacity="0.5" />
+      <text x="379" y="21" fill="#79c0ff" font-size="10" font-weight="700" text-anchor="middle" class="mono">PRODUCTION</text>
     </g>
 
-    <!-- Skill 4: Cloud & BaaS / C# -->
-    <g transform="translate(0, 150)">
-      <text x="0" y="10" fill="#e2e8f0" font-size="12" font-weight="600" class="sans">Cloud BaaS (Supabase/Firebase) &amp; C# .NET</text>
-      <text x="440" y="10" fill="#4facfe" font-size="12" font-weight="700" text-anchor="end" class="mono">84%</text>
-      <!-- Track -->
-      <rect x="0" y="17" width="440" height="7" rx="3.5" fill="#0f1f3d" />
-      <!-- Progress -->
-      <rect x="0" y="17" width="370" height="7" rx="3.5" fill="url(#barGradBlue)" />
+    <!-- Pillar 4: Cloud & BaaS -->
+    <g transform="translate(0, 162)">
+      <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#4facfe" stroke-opacity="0.25" />
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">🗄️ Cloud &amp; Real-time</text>
+      <text x="175" y="22" fill="#94a3b8" font-size="12" class="sans">Supabase &bull; Firebase &bull; C#</text>
+      <!-- Tag Pill -->
+      <rect x="330" y="6" width="98" height="22" rx="6" fill="#4facfe" fill-opacity="0.12" stroke="#4facfe" stroke-opacity="0.5" />
+      <text x="379" y="21" fill="#79c0ff" font-size="10" font-weight="700" text-anchor="middle" class="mono">SCALABLE</text>
     </g>
   </g>
 </svg>
