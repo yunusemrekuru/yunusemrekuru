@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 550" width="1000" height="550">
   <defs>
     <linearGradient id="ebg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1020"/><stop offset="1" stop-color="#05070e"/></linearGradient>
-    <linearGradient id="ebd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.75"/><stop offset="0.5" stop-color="#4facfe" stop-opacity="0.1"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="ebd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.75"/><stop offset="0.5" stop-color="#4facfe" stop-opacity="0.1"/><stop offset="1" stop-color="#ffd23f" stop-opacity="0.5"/></linearGradient>
     <linearGradient id="etab" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5d4"/><stop offset="1" stop-color="#4facfe"/></linearGradient>
     <radialGradient id="eg1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.14"/><stop offset="1" stop-color="#00f5d4" stop-opacity="0"/></radialGradient>
-    <radialGradient id="eg2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.12"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <radialGradient id="eg2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffd23f" stop-opacity="0.12"/><stop offset="1" stop-color="#ffd23f" stop-opacity="0"/></radialGradient>
     <clipPath id="ecl"><rect x="1" y="1" width="998" height="548" rx="18"/></clipPath>
   </defs>
   <rect x="1" y="1" width="998" height="548" rx="18" fill="url(#ebg)"/>

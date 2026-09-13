@@ -147,7 +147,7 @@ const keeper = `<g transform="translate(${PX1 - 9} ${CY})"><g>
 
 /* confetti burst from the net */
 let confetti = '';
-const colors = ['#00f5d4', '#4facfe', '#a78bfa', '#f472b6', '#fbbf24', '#ffffff'];
+const colors = ['#00f5d4', '#4facfe', '#ffd23f', '#f472b6', '#fbbf24', '#ffffff'];
 for (let i = 0; i < 22; i++) {
   const a = Math.PI * (0.55 + (i / 21) * 0.9) + (((i * 37) % 7) - 3) * 0.04;
   const r = 50 + ((i * 53) % 60);
@@ -164,7 +164,7 @@ const showGoal = `0;0;1;1;0;0`, showGoalT = `0;${f(tShot)};${f(tShot + 0.012)};$
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1122"/><stop offset="1" stop-color="#050810"/></linearGradient>
-    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.8"/><stop offset="0.5" stop-color="#34d399" stop-opacity="0.1"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0.55"/></linearGradient>
+    <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5d4" stop-opacity="0.8"/><stop offset="0.5" stop-color="#34d399" stop-opacity="0.1"/><stop offset="1" stop-color="#ffd23f" stop-opacity="0.55"/></linearGradient>
     <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#06291f"/><stop offset="1" stop-color="#03150f"/></linearGradient>
     <linearGradient id="goalTxt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="0.5" stop-color="#7fe9da"/><stop offset="1" stop-color="#00f5d4"/></linearGradient>
     <radialGradient id="spot" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#b8fff2" stop-opacity="0.22"/><stop offset="1" stop-color="#00f5d4" stop-opacity="0"/></radialGradient>
