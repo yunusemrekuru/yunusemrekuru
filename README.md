@@ -160,7 +160,7 @@ const developer: DeveloperProfile = {
 
   <!-- PERMANENT IN-REPO CYBER HUD METRICS -->
   <a href="https://github.com/yunusemrekuru">
-    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/cyber_hud_metrics.svg" alt="Yunus Emre Kuru Cyber Metrics" width="100%" />
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/cyber_hud_metrics.svg?v=2" alt="Yunus Emre Kuru Cyber Metrics" width="100%" />
   </a>
 </div>
 
