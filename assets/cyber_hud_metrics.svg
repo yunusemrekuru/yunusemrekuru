@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%" height="100%">
   <defs>
     <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -37,35 +38,35 @@
   <!-- Center Divider Line -->
   <line x1="475" y1="25" x2="475" y2="225" stroke="#00f5d4" stroke-opacity="0.18" stroke-dasharray="4,4" />
 
-  <!-- ================= LEFT COLUMN: DEVELOPER METRICS ================= -->
+  <!-- ================= LEFT COLUMN: DEVELOPER TELEMETRY ================= -->
   <g transform="translate(45, 30)">
     <text x="0" y="15" fill="#00f5d4" font-size="12" font-weight="700" letter-spacing="2.5" class="mono">// DEVELOPER TELEMETRY</text>
 
     <!-- Metric 1: Repositories -->
     <g transform="translate(0, 36)">
       <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">📁 Total Built Repositories</text>
+      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">&#128193; Total Built Repositories</text>
       <text x="370" y="22" fill="#00f5d4" font-size="13.5" font-weight="700" text-anchor="end" class="mono">23+ Builds</text>
     </g>
 
     <!-- Metric 2: Core Engineering -->
     <g transform="translate(0, 78)">
       <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">📱 Mobile &amp; App Architecture</text>
+      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">&#128241; Mobile Architecture</text>
       <text x="370" y="22" fill="#00f5d4" font-size="13" font-weight="700" text-anchor="end" class="mono">Flutter &amp; Dart</text>
     </g>
 
     <!-- Metric 3: Cloud & DB -->
     <g transform="translate(0, 120)">
       <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">⚡ Cloud &amp; Real-time BaaS</text>
+      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">&#9889; Cloud &amp; Real-time BaaS</text>
       <text x="370" y="22" fill="#4facfe" font-size="13" font-weight="700" text-anchor="end" class="mono">Supabase / Firebase</text>
     </g>
 
     <!-- Metric 4: AI & Vision -->
     <g transform="translate(0, 162)">
       <rect x="0" y="0" width="385" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">🧠 Computer Vision &amp; AI</text>
+      <text x="14" y="22" fill="#79c0ff" font-size="13" class="sans">&#129504; Computer Vision &amp; AI</text>
       <text x="370" y="22" fill="#38ef7d" font-size="13" font-weight="700" text-anchor="end" class="mono">OpenCV &amp; Python</text>
     </g>
   </g>
@@ -77,8 +78,8 @@
     <!-- Pillar 1: Mobile -->
     <g transform="translate(0, 36)">
       <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">📱 Mobile Engineering</text>
-      <text x="175" y="22" fill="#94a3b8" font-size="12" class="sans">Flutter &bull; iOS &bull; Android</text>
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">&#128241; Mobile Engineering</text>
+      <text x="175" y="22" fill="#94a3b8" font-size="12" class="sans">Flutter &#8226; iOS &#8226; Android</text>
       <!-- Tag Pill -->
       <rect x="330" y="6" width="98" height="22" rx="6" fill="#00f5d4" fill-opacity="0.12" stroke="#00f5d4" stroke-opacity="0.5" />
       <text x="379" y="21" fill="#00f5d4" font-size="10" font-weight="700" text-anchor="middle" class="mono">CORE STACK</text>
@@ -87,8 +88,8 @@
     <!-- Pillar 2: Computer Vision -->
     <g transform="translate(0, 78)">
       <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#00f5d4" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">🧠 Computer Vision</text>
-      <text x="165" y="22" fill="#94a3b8" font-size="12" class="sans">OpenCV &bull; YOLO &bull; AI Lab</text>
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">&#129504; Computer Vision</text>
+      <text x="165" y="22" fill="#94a3b8" font-size="12" class="sans">OpenCV &#8226; YOLO &#8226; AI Lab</text>
       <!-- Tag Pill -->
       <rect x="330" y="6" width="98" height="22" rx="6" fill="#00f5d4" fill-opacity="0.12" stroke="#00f5d4" stroke-opacity="0.5" />
       <text x="379" y="21" fill="#00f5d4" font-size="10" font-weight="700" text-anchor="middle" class="mono">APPLIED R&amp;D</text>
@@ -97,8 +98,8 @@
     <!-- Pillar 3: Web Systems -->
     <g transform="translate(0, 120)">
       <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#4facfe" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">🌐 Web Platforms</text>
-      <text x="148" y="22" fill="#94a3b8" font-size="12" class="sans">PHP &bull; JS &bull; HTML5 &bull; CSS3</text>
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">&#127760; Web Platforms</text>
+      <text x="148" y="22" fill="#94a3b8" font-size="12" class="sans">PHP &#8226; JS &#8226; HTML5 &#8226; CSS3</text>
       <!-- Tag Pill -->
       <rect x="330" y="6" width="98" height="22" rx="6" fill="#4facfe" fill-opacity="0.12" stroke="#4facfe" stroke-opacity="0.5" />
       <text x="379" y="21" fill="#79c0ff" font-size="10" font-weight="700" text-anchor="middle" class="mono">PRODUCTION</text>
@@ -107,8 +108,8 @@
     <!-- Pillar 4: Cloud & BaaS -->
     <g transform="translate(0, 162)">
       <rect x="0" y="0" width="440" height="34" rx="8" fill="#0c172d" fill-opacity="0.75" stroke="#4facfe" stroke-opacity="0.25" />
-      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">🗄️ Cloud &amp; Real-time</text>
-      <text x="175" y="22" fill="#94a3b8" font-size="12" class="sans">Supabase &bull; Firebase &bull; C#</text>
+      <text x="14" y="22" fill="#ffffff" font-size="13" font-weight="600" class="sans">&#128451; Cloud &amp; Real-time</text>
+      <text x="175" y="22" fill="#94a3b8" font-size="12" class="sans">Supabase &#8226; Firebase &#8226; C#</text>
       <!-- Tag Pill -->
       <rect x="330" y="6" width="98" height="22" rx="6" fill="#4facfe" fill-opacity="0.12" stroke="#4facfe" stroke-opacity="0.5" />
       <text x="379" y="21" fill="#79c0ff" font-size="10" font-weight="700" text-anchor="middle" class="mono">SCALABLE</text>
