@@ -59,7 +59,7 @@
 <!-- ================================================================= -->
 
 <div align="center">
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="30" />&nbsp; TERMINAL HUD // PROFILE OVERVIEW</h2>
+  <h2>💻&nbsp; TERMINAL HUD // PROFILE OVERVIEW</h2>
 </div>
 
 ```typescript
@@ -94,7 +94,7 @@ const developer: DeveloperProfile = {
 <!-- ================================================================= -->
 
 <div align="center">
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="30" />&nbsp; WEAPONS OF CHOICE // TECH ARSENAL</h2>
+  <h2>⚡&nbsp; WEAPONS OF CHOICE // TECH ARSENAL</h2>
   <p><i>Mobil geliştirme, modern web ekosistemleri, yapay zeka & veri bilimi araçları</i></p>
 </div>
 
@@ -149,38 +149,19 @@ const developer: DeveloperProfile = {
 <br/>
 
 <!-- ================================================================= -->
-<!-- 📊 GITHUB LIVE STATS & STREAKS                                    -->
+<!-- 📊 SYSTEM TELEMETRY & CAPABILITIES                                -->
 <!-- ================================================================= -->
 
 <div align="center">
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="30" />&nbsp; SYSTEM METRICS // GITHUB ANALYTICS</h2>
-  <p><i>Canlı katkı grafiği, commit serileri ve kod istatistikleri</i></p>
+  <h2>📊&nbsp; SYSTEM TELEMETRY // CORE METRICS</h2>
+  <p><i>Yunus Emre Kuru &bull; Gerçek zamanlı geliştirici telemetrisi ve teknoloji uzmanlık matrisi</i></p>
 
   <br/>
 
-  <!-- Stats Grid -->
-  <table align="center" border="0">
-    <tr>
-      <td>
-        <a href="https://github.com/yunusemrekuru">
-          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=yunusemrekuru&show_icons=true&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&icon_color=00f2fe&border_color=00f5d440&border_radius=14&hide_border=false&hide=commits" alt="Yunus Emre Kuru GitHub Stats" height="195" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/yunusemrekuru">
-          <img src="https://streak-stats.demolab.com?user=yunusemrekuru&theme=tokyonight&background=0a0f1d&border=00f5d440&stroke=00f5d4&ring=00f2fe&fire=00f5d4&currStreakNum=ffffff&sideNums=79c0ff&currStreakLabel=00f5d4&border_radius=14" alt="Yunus Emre Kuru GitHub Streak" height="195" />
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <!-- Top Languages Bar -->
+  <!-- PERMANENT IN-REPO CYBER HUD METRICS -->
   <a href="https://github.com/yunusemrekuru">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=yunusemrekuru&layout=compact&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&border_color=00f5d440&border_radius=14&langs_count=8" alt="Top Languages" />
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/cyber_hud_metrics.svg" alt="Yunus Emre Kuru Cyber Metrics" width="100%" />
   </a>
-
 </div>
 
 <br/><br/>
@@ -190,7 +171,7 @@ const developer: DeveloperProfile = {
 <!-- ================================================================= -->
 
 <div align="center">
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="30" />&nbsp; FEATURED BUILDS // HIGHLIGHTS</h2>
+  <h2>🚀&nbsp; FEATURED BUILDS // HIGHLIGHTS</h2>
   <p><i>Açık kaynak projelerim, makine öğrenmesi laboratuvarları ve mobil çözümler</i></p>
 </div>
 
@@ -250,7 +231,7 @@ const developer: DeveloperProfile = {
 <!-- ================================================================= -->
 
 <div align="center">
-  <h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" width="30" />&nbsp; RETRO ARCADE // CONTRIBUTION SNAKE RUN</h2>
+  <h2>🐍&nbsp; RETRO ARCADE // CONTRIBUTION SNAKE RUN</h2>
   <p><i>GitHub commit aktivitelerimin neon turkuaz yılan oyunu animasyonu</i></p>
   
   <br/>
