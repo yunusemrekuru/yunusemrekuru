@@ -160,7 +160,7 @@ const developer: DeveloperProfile = {
     <tr>
       <td>
         <a href="https://github.com/yunusemrekuru">
-          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=yunusemrekuru&show_icons=true&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&icon_color=00f2fe&border_color=00f5d440&border_radius=14&hide_border=false" alt="Yunus Emre Kuru GitHub Stats" height="195" />
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=yunusemrekuru&show_icons=true&theme=tokyonight&bg_color=0a0f1d&title_color=00f5d4&text_color=94a3b8&icon_color=00f2fe&border_color=00f5d440&border_radius=14&hide_border=false&include_all_commits=true" alt="Yunus Emre Kuru GitHub Stats" height="195" />
         </a>
       </td>
       <td>
