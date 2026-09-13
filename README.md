@@ -160,7 +160,7 @@ const developer: DeveloperProfile = {
 
   <!-- PERMANENT IN-REPO CYBER HUD METRICS -->
   <a href="https://github.com/yunusemrekuru">
-    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/cyber_hud_metrics.svg?v=2" alt="Yunus Emre Kuru Cyber Metrics" width="100%" />
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/telemetry.svg" alt="Yunus Emre Kuru Cyber Telemetry" width="100%" />
   </a>
 </div>
 
@@ -237,9 +237,9 @@ const developer: DeveloperProfile = {
   <br/>
   
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
