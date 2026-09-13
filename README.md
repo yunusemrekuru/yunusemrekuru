@@ -19,34 +19,39 @@
 
   <br/>
 
-  <!-- CANLI STATÜ VE METRİK ROZETLERİ -->
+  <!-- QUICK HUD STATS -->
   <p align="center">
-    <img src="https://img.shields.io/badge/STATUS-ACTIVE%20BUILDING-00f5d4?style=for-the-badge&logo=statuspage&logoColor=070c18&labelColor=0a0f1d" alt="Status" />
+    <img src="https://img.shields.io/badge/System-Online_%26_Active-00f5d4?style=flat-square&logo=statuspage&logoColor=070c18" alt="Status" />
+    &nbsp;
     <a href="https://github.com/yunusemrekuru?tab=repositories">
-      <img src="https://img.shields.io/badge/REPOSITORIES-23%20BUILDS-00f2fe?style=for-the-badge&logo=git&logoColor=070c18&labelColor=0a0f1d" alt="Repositories" />
+      <img src="https://img.shields.io/badge/Portfolio-23_Projects-00f2fe?style=flat-square&logo=git&logoColor=070c18" alt="Repositories" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=yunusemrekuru&color=00f5d4&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0a0f1d" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/yunusemrekuru?style=for-the-badge&color=00f2fe&logo=github&logoColor=ffffff&labelColor=0a0f1d" alt="Followers" />
-    <img src="https://img.shields.io/badge/SPORT-FOOTBALL%20%E2%9A%BD-00f5d4?style=for-the-badge&logoColor=070c18&labelColor=0a0f1d" alt="Football" />
-    <img src="https://img.shields.io/badge/STUDIO-%40KURUDEVWORKS-4facfe?style=for-the-badge&logo=instagram&logoColor=ffffff&labelColor=0a0f1d" alt="Studio" />
-  </p>
-
-  <!-- SOSYAL MEDYA & İLETİŞİM HAPLARI -->
-  <p align="center">
-    <a href="https://www.linkedin.com/in/yunus-emre-kuru-436b52237/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-00f5d4?style=for-the-badge&logo=linkedin&logoColor=070c18&labelColor=0a0f1d" alt="LinkedIn" />
-    </a>
+    &nbsp;
+    <img src="https://komarev.com/ghpvc/?username=yunusemrekuru&color=00f5d4&style=flat-square&label=Profile_Views" alt="Profile Views" />
     &nbsp;
     <a href="https://www.instagram.com/kurudevworks" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0a0f1d" alt="Instagram" />
+      <img src="https://img.shields.io/badge/Studio-%40kurudevworks-4facfe?style=flat-square&logo=instagram&logoColor=white" alt="Studio" />
     </a>
     &nbsp;
+    <img src="https://img.shields.io/badge/Passion-Football_%E2%9A%BD-00f5d4?style=flat-square" alt="Football" />
+  </p>
+
+  <!-- SOCIAL CONNECT DOCK -->
+  <p align="center">
+    <a href="https://www.linkedin.com/in/yunus-emre-kuru-436b52237/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.instagram.com/kurudevworks" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-Follow_%40kurudevworks-E1306C?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    &nbsp;&nbsp;
     <a href="mailto:yunusemrekuru35@gmail.com">
-      <img src="https://img.shields.io/badge/Email-00f2fe?style=for-the-badge&logo=gmail&logoColor=070c18&labelColor=0a0f1d" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-Get_in_Touch-00f5d4?style=flat-square&logo=gmail&logoColor=070c18" alt="Email" />
     </a>
-    &nbsp;
+    &nbsp;&nbsp;
     <a href="https://github.com/yunusemrekuru">
-      <img src="https://img.shields.io/badge/GitHub-4facfe?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1d" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-Follow-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
     </a>
   </p>
 
