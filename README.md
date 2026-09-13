@@ -129,16 +129,7 @@
 <!-- ================================================================= -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2&height=120&section=footer&animation=fadeIn" width="100%" />
-
-  <br/>
-
-  <p>
-    <i>"The future of software belongs to those who build with precision, imagination, and unrelenting passion."</i>
-  </p>
-
-  <p align="center">
-    <img src="https://img.shields.io/badge/DEVELOPED%20BY-YUNUS%20EMRE%20KURU-00f5d4?style=for-the-badge&labelColor=0a0f1d" alt="Developer Badge" />
-    <img src="https://img.shields.io/badge/%40KURUDEVWORKS-CYBERPUNK%20EDITION-00f2fe?style=for-the-badge&labelColor=0a0f1d" alt="Edition Badge" />
-  </p>
+  <a href="#">
+    <img src="https://raw.githubusercontent.com/yunusemrekuru/yunusemrekuru/main/assets/footer_signoff.svg" alt="The future of software belongs to those who build with precision, imagination, and unrelenting passion. — Yunus Emre Kuru, Founder · Kuru DevWorks" width="100%" />
+  </a>
 </div>
